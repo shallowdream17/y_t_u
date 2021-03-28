@@ -1,0 +1,115 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/layer.css" id="layuicss-skinlayercss"></head><body>﻿<!--A Design by W3layouts Author: W3layout Author URL: http://w3layouts.com License: Creative Commons Attribution 3.0 Unported License URL: http://creativecommons.org/licenses/by/3.0/-->
+
+
+	
+		<title>烟台大学网络准入认证系统</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="keywords" content="网络准入认证系统">
+		<link type="images/x-icon" rel="shortcut icon" href="http://202.194.116.116/static/images/basic/favicon.ico">
+		<script type="text/javascript">
+			function locationURI(uri) { return location.href=uri+location.search; }
+		</script>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+		<link href="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/bootstrap.css" rel="stylesheet">
+		<link href="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/font-awesome.css" rel="stylesheet">
+		<link href="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/basic1.css" rel="stylesheet" type="text/css">
+	
+	
+		<div class="login-page navbar navbar-static-top nav-portal">
+			<div class="container">
+		    	<div class="navbar-header">
+		      		<img src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/logo.png" class="img-responsive logo" alt="logo">
+		    	</div>
+		  	</div>
+		</div>
+		<div class="login-page container login">
+			<div class="row">
+				
+				<div class="col-md-6 col-sm-6 col-xs-12 login-ie">
+					<div class="col-md-12">
+						
+						<h2 class="form-heading">网络准入认证系统</h2>
+						
+						<form class="form-horizontal login-form" id="login-form" action="#">
+							<input type="hidden" name="ac_id" id="ac_id" value="5">
+							<input type="hidden" name="user_ip" id="user_ip" value="10.20.93.16">
+							<input type="hidden" name="nas_ip" id="nas_ip" value="">
+							<input type="hidden" name="user_mac" id="user_mac" value="">
+							<input type="hidden" name="url" id="url" value="">
+							<div class="form-group">
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user fa-2x"></i>
+									</div>
+									<input type="text" name="username" id="username" class="form-control" placeholder="请输入用户名">
+									
+									
+									
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-lock fa-2x"></i>
+									</div>
+									<input type="password" name="password" id="password" class="form-control" placeholder="请输入密码">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 col-xs-4">
+									<button class="btn btn-block btn-primary" id="login" type="button">登录</button>
+								</div>
+								<div class="col-md-4 col-xs-4">
+									<button class="btn btn-block btn-danger" id="logout-dm" type="button">注销</button>
+								</div>
+								
+								<div class="col-md-4 col-xs-4">
+									<a href="javascript:void(0)" id="self-service" class="btn btn-block btn-success line-height-a">自助服务</a>
+								</div>
+								
+							</div>
+
+							
+							
+
+						</form>
+						<div id="out-qrcode" class="hidden" style="margin-top: 50px;"></div>
+					</div>
+					
+					<div class="col-md-12">
+						
+						
+						
+					</div>
+					
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 notice">
+						<div class="col-md-offset-1 col-md-10 notice-ie">
+							<h2 class="notice-heading">通知</h2>
+							<h3 id="notice-title">网络准入认证系统使用说明</h3>
+							<p id="notice-content"><p><span style="color: rgb(255, 0, 0); font-size: 20px;"></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif">1.</span>【<strong><span style="font-family:宋体">用户名密码</span></strong>】网络用户名即校园卡号，密码即办事大厅身份认证密码；如果忘记密码,点<a href="https://cas.ytu.edu.cn/" target="_self" style="text-decoration: underline; font-size: 18px; color: rgb(255, 0, 0);"><span style="font-size: 18px; color: rgb(255, 0, 0);">此处</span></a>重置密码。中国移动用户使用手机号码/密码登录。</p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif">2.</span>【<strong><span style="font-family:宋体">计费标准</span></strong>】每用户每月流入量<span style="font-family: Arial, sans-serif">10G</span>内免费，超过<span style="font-family: Arial, sans-serif">10G</span>以上部分按<span style="font-family: Arial, sans-serif">0.5</span>元<span style="font-family: Arial, sans-serif">/G</span>累计，当月费用累计达到<span style="font-family: Arial, sans-serif">30</span>元后不再继续计费。</p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif">3.</span>【<strong><span style="font-family:宋体">缴费充值</span></strong>】电脑端用户请点击<span style="color: rgb(255, 0, 0); text-decoration: underline; font-size: 18px;"><a href="https://ehall.ytu.edu.cn:4106/pay" target="_blank" style="color: rgb(255, 0, 0); text-decoration: underline;">此处</a></span>进行网络充值，移动端用户请用微信扫描下方二维码充值，<span style="color: rgb(255, 0, 0); font-size: 20px;">不支持退费。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0">&nbsp; <img src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/jiaofei.png"><br></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif">4.</span><strong><span style="font-family: 宋体">【使用日志】</span></strong>点击<span style="font-family: Arial, sans-serif">“</span>自助服务<span style="font-family: Arial, sans-serif">”</span>，可以查看个人使用日志、缴费信息、结算信息等,<span style="color: rgb(255, 0, 0); font-size: 18px;">结算时间为每月1日零时</span>。</p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><br></p><p><br></p></p>
+						</div>
+						<div class="pull-right middle-right">
+							<img src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/middle.png" class="middle">
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+		<script src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/all.js"></script>
+		<script type="text/javascript">
+			var isIPV6 =  false ;
+			var portal = {"AuthIP":"202.194.116.116","AuthIP6":"","ServiceIP":"202.194.116.116","DoubleStackPC":false,"DoubleStackMobile":false,"AuthMode":false,"CloseLogout":false,"MacAuth":false,"RedirectUrl":true,"OtherPCStack":"IPV4","OtherMobileStack":"IPV4","MsgApi":"new","PublicSuccessPages":true};
+			var lang = "zh-CN" || "zh-CN";
+		</script>
+		<script src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/srun.js"></script>
+		<script src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/jquery.js"></script>
+		<script src="%E7%83%9F%E5%8F%B0%E5%A4%A7%E5%AD%A6%E7%BD%91%E7%BB%9C%E5%87%86%E5%85%A5%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F_files/main.js"></script>
+	
+</body></html>
